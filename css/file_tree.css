@@ -1,0 +1,78 @@
+	/*
+		@ file: file_tree.css
+		@ Author: Amando Filipe
+		@ description: Style nested <li> and <ul> items, give files icons according to their extension
+	
+	*/
+	
+	h1{
+		font-family: Lato, sans-serif;
+		background-repeat: no-repeat;
+		padding: 10px 5px 10px 50px;
+		background-position: 0 0;
+	}
+	
+	.filesize{
+		font-size: 0.8em;
+		font-style: italic;
+	}
+	
+	ul#file_tree li{
+		width:300px;
+		padding: 2px 0 2px 0;
+		list-style: none;
+		background-image: url('../images/document_blank.png');
+		background-size:20px 20px;
+		background-position: 0 -3px;
+		background-repeat: no-repeat;
+		padding-left: 24px;
+	}
+	
+	ul#file_tree li.avi{
+		background-image: url('../images/file_avi.png');
+	}
+
+	ul#file_tree li.mov{
+		background-image: url('../images/file_mov.png');
+	}
+
+	ul#file_tree li.gif{
+		background-image: url('../images/file_gif.png');
+	}
+
+	ul#file_tree li.png{
+		background-image: url('../images/file_png.png');
+	}
+
+	ul#file_tree li.jpg{
+		background-image: url('../images/file_jpg.png');
+	}			
+
+	ul#file_tree li.php{
+		background-image: url('../images/file_php.png');
+	}
+
+	ul#file_tree li.txt{
+		background-image: url('../images/file_txt.png');
+	}
+
+	ul#file_tree li.rar{
+		background-image: url('../images/box_rar.png');
+	}
+
+	ul#file_tree li.folder {
+		background-image: url('../images/folder_blue_stuffed.png');
+	}
+
+	ul#file_tree li.empty{
+		background-image: url('../images/folder_blue.png');
+	}
+
+	ul#file_tree a {
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+	ul#file_tree a:hover {
+		text-decoration: underline;
+	}
